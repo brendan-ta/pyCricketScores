@@ -8,6 +8,7 @@ import re
 import time
 
 UPDATE_RATE = 10
+ESPNCRICINFO_RSS = "https://static.cricinfo.com/rss/livescores.xml"
 
 
 class colours:
@@ -24,7 +25,7 @@ class colours:
 
 class AllMatches(object):
     def __init__(self):
-        self.live_rss = "https://static.cricinfo.com/rss/livescores.xml"
+        self.live_rss = ESPNCRICINFO_RSS
         self.getMatchDetails()
 
     def getMatchDetails(self):

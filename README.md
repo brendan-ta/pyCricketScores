@@ -8,3 +8,16 @@ a chosen cricket match.
 ## Requirements
 
 - Python3
+
+## Usage
+
+    python3 pyCricketScores.py
+
+## Information
+
+Adjust the `UPDATE_RATE` field to configure how often the script polls
+and refreshes (in seconds).
+
+## Notes
+
+At time of writing this works with ESPNCricInfo's RSS feed.
